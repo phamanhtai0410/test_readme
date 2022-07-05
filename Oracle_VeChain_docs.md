@@ -101,8 +101,8 @@ In the future, our goal is to further enrich the ecosystem with more essential D
 | --- | --- |
 | Team leaders: | Mr. Truong Phan (CEO) |
 || Mr. Tram Vo (CTO) |
-| Team members: | Mr. Phat Nguyen (Lead DevOps Engineer) |
-|| Mr. Hanh Nguyen (Lead Frontend Engineer)|
+| Team members: | Mr. Phat Nguyen (DevOps Team Lead) |
+|| Mr. Hanh Nguyen (Frontend Team Lead)|
 ||+ 1 system engineer<br>+ 1 blockchain engineer<br>+ 1 backend engineer<br> + 1 designer<br>|
 
 ### 2.2 Team Website
