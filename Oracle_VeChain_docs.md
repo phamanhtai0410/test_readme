@@ -153,7 +153,7 @@ In the future, our goal is to further enrich the ecosystem with more essential D
 | --- | --- | --- | --- |
 | Estimated Duration | 2 month | 2 month | 4 months |
 | Full-time equivalent (FTE) | 4 full-time engineers| 4 full-time engineers||
-| Cost (up to $ 30,000) | Development cost: $10,000| Development cost: $10,000Gas fee to keep the oracle running:$10,000 in $VTHO | USD $30,000 |
+| Cost (up to $ 30,000) | Development cost: $10,000| Development cost: $10,000<br>Gas fee to keep the oracle running:$10,000 in $VTHO | $30,000 |
 
 #### 3.2.1 Milestone 1 — Deploy SEER v1.0 on testnet
 
