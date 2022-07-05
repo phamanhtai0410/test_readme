@@ -20,8 +20,8 @@
 
 Strategic values:
 
-- Quick and easy to deploy
-- Easily accessible for dApp builders on VeChain
+- Quick and easy to deploy.
+- Easily accessible for dApp builders on VeChain.
 - Price stabilization algorithm to protect from extreme price movements.
 
 Our key emphasis is on stability and protection for users against extreme price movements and potential security risk. The use of reputable centralized exchanges ensure good pricing data input, and security risks are mitigated with price stabilization algorithms.
@@ -78,9 +78,9 @@ Datasource will come from from exchanges:
 
 For reference:
 
-- Mockups: https://oracle-stag.vebank.io/home
+- Mockups: https://oracle-stag.vebank.io/home.
 
-- Documentation of core components, protocols, architecture, etc. to be deployed: https://docs.vebank.io/welcome
+- Documentation of core components, protocols, architecture, etc. to be deployed: https://docs.vebank.io/welcome.
 
 ### 1.3 Ecosystem Fit
 
@@ -88,11 +88,11 @@ For reference:
 
 In the future, our goal is to further enrich the ecosystem with more essential DeFi products, becoming the primary access point for data into the VeChain ecosystem. Further developments will involve:
 
-(i) Decentralization: upgrade to a decentralized oracle
+(i) Decentralization: upgrade to a decentralized oracle.
 
-(ii) More assets price data feed: support more assets for dApps on VeChain - we will be actively communicating with VeChain users to identify best fits to develop
+(ii) More assets price data feed: support more assets for dApps on VeChain - we will be actively communicating with VeChain users to identify best fits to develop.
 
-(iii) Expand to real-world data: one of our key goals is to get real-world use cases for blockchain dApps (ie. stock market, sport events, weather,... )
+(iii) Expand to real-world data: one of our key goals is to get real-world use cases for blockchain dApps (ie. stock market, sport events, weather,... ).
 
 ## 2. Team
 
@@ -140,12 +140,12 @@ In the future, our goal is to further enrich the ecosystem with more essential D
 
 - July 2022
 
-    - Deploy SEER v1.0 oracle on VeChain testnet
-    - Supports price data feed for BTC, ETH, VET, VTHO, VeUSD
+    - Deploy SEER v1.0 oracle on VeChain testnet.
+    - Supports price data feed for BTC, ETH, VET, VTHO, VeUSD.
 
 - August - September 2022
 
-    - Deploy SEER v1.0 oracle on VeChain mainnet
+    - Deploy SEER v1.0 oracle on VeChain mainnet.
 
 ### 3.2. Overview
 
@@ -156,9 +156,9 @@ In the future, our goal is to further enrich the ecosystem with more essential D
 | Cost (up to $ 30,000) | Development cost: $10,000| Development cost: $10,000<br>Gas fee to keep the oracle running:$10,000 in $VTHO | $30,000 |
 
 #### 3.2.1 Milestone 1 — Deploy SEER v1.0 on testnet
-
-- Smart contracts for BTC, ETH, VET, VTHO, VeUSD data price on testnet
-- Website testnet on https://oracle-stag.vebank.io/home
+ 
+- Smart contracts for BTC, ETH, VET, VTHO, VeUSD data price on testnet.
+- Website testnet on https://oracle-stag.vebank.io/home.
 - Some smart contracts on testnet in currently:
     - SeerOracleVETUSD: `0x3212feD5581DEFbb2d7Ea21d7F22f657cD3da97E`
     - SeerOracleVETHOUSD: `0x5E7A52743575FE6F8cD8937C0415640338eBdd29`
@@ -169,8 +169,8 @@ In the future, our goal is to further enrich the ecosystem with more essential D
 
 #### 3.2.2 Milestone 2 — Deploy SEER v1.0 on mainnet
 
-- Deploy smart contract for BTC, ETH, VET, VTHO, VeUSD data price on mainnet
-- Deploy official SEER website
+- Deploy smart contract for BTC, ETH, VET, VTHO, VeUSD data price on mainnet.
+- Deploy official SEER website.
 
 ##
 
@@ -181,24 +181,24 @@ In the future, our goal is to further enrich the ecosystem with more essential D
 
 (i) Decentralization: upgrade to a decentralized oracle
 
-(ii) More assets price data feed: support more assets for dApps on VeChain - we will be actively communicating with VeChain users to identify best fits to develop
+(ii) More assets price data feed: support more assets for dApps on VeChain - we will be actively communicating with VeChain users to identify best fits to develop.
 
-(iii) Expand to real-world data: one of our key goals is to get real-world use cases for blockchain dApps (ie. stock market, sport events, weather,... )
+(iii) Expand to real-world data: one of our key goals is to get real-world use cases for blockchain dApps (ie. stock market, sport events, weather,... ).
 
 ## 5. Additional Information
 
-What we have already accomplished
+What we have already accomplished:
 
-- Smart contracts for BTC, ETH, VET, VTHO, VeUSD data price on testnet
-- Deploy beta website for SEER: [https://oracle-stag.vebank.io/home](https://oracle-stag.vebank.io/home)
-- Run stress-test to test price feed stability with 100% accuracy and up-time
-- Ready for mainnet
+- Smart contracts for BTC, ETH, VET, VTHO, VeUSD data price on testnet.
+- Deploy beta website for SEER: [https://oracle-stag.vebank.io/home](https://oracle-stag.vebank.io/home).
+- Run stress-test to test price feed stability with 100% accuracy and up-time.
+- Ready for mainnet.
 
 About other grants
 
-- We haven&#39;t applied for any other grants
+- We haven&#39;t applied for any other grants.
 
 Financial contributions
 
-- Our team has self-financed this project from the beginning
-- Total budget that we have spent till date is about USD $20,000
+- Our team has self-financed this project from the beginning.
+- Total budget that we have spent till date is about $20,000.
