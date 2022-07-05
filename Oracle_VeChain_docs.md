@@ -157,7 +157,13 @@ In the future, our goal is to further enrich the ecosystem with more essential D
 #### 3.2.1 Milestone 1 — Deploy SEER v1.0 on testnet
 
 - Smart contracts for BTC, ETH, VET, VTHO, VeUSD data price on testnet
-- Website live on https://oracle-stag.vebank.io/home
+- Website testnet on https://oracle-stag.vebank.io/home
+- Some smart contracts on testnet in currently:
+    - **Pool** : `0xC70FF30079f3266e1CaD3d4CF88BBB12A75b9733`      
+    - **Token VB**: `0xe88c871CEA576DdD59FA91a744Eb6C6d5b93AB40`
+    - **PoolAddressesProvider**: `0xdAc5511c5eaC407Ad205264a3E8a450a102e3868`
+    - **WVET**: `0xA00fe119Efa9d8F7Ef00aD16b4D702e6a5F6CB6A`
+    
 
 #### 3.2.2 Milestone 2 — Deploy SEER v1.0 on mainnet
 
