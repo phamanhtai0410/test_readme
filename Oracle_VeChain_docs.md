@@ -159,11 +159,12 @@ In the future, our goal is to further enrich the ecosystem with more essential D
 - Smart contracts for BTC, ETH, VET, VTHO, VeUSD data price on testnet
 - Website testnet on https://oracle-stag.vebank.io/home
 - Some smart contracts on testnet in currently:
-    - **Pool** : `0xC70FF30079f3266e1CaD3d4CF88BBB12A75b9733`      
-    - **Token VB**: `0xe88c871CEA576DdD59FA91a744Eb6C6d5b93AB40`
-    - **PoolAddressesProvider**: `0xdAc5511c5eaC407Ad205264a3E8a450a102e3868`
-    - **WVET**: `0xA00fe119Efa9d8F7Ef00aD16b4D702e6a5F6CB6A`
-    
+    - SeerOracleVETUSD: `0x3212feD5581DEFbb2d7Ea21d7F22f657cD3da97E`
+    - SeerOracleVETHOUSD: `0x5E7A52743575FE6F8cD8937C0415640338eBdd29`
+    - SeerOracleVBUSD: `0xDf925feC9932A1De0d2b4404cCfac09166624F94`
+    - SeerOracleVEUSDUSD: `0xA2B0d7b38dc13a58A7B4c0E8E2400d650dad46EC`
+    - SeerOracleBTCUSD: `0x18A2fEAae2fA06B3452fd094Ba802C93FF0dA972`
+    - SeerOracleETHUSD: `0xed8e829cfEB0Cdd315C26c7df10e81B12a3abA95`
 
 #### 3.2.2 Milestone 2 — Deploy SEER v1.0 on mainnet
 
