@@ -36,7 +36,7 @@ SEER v1.0 will have the following UI:
 ![](</static/assets/BTC.png>)
 ![](</static/assets/VTHO.png>)
 ![](</static/assets/BVEUSD.png>)
-![](</static/assets/SeerOracleDiagram.png>)
+![](</static/assets/SeerOracleDiagram.jpg>)
 
 #### 1.2.2 Calculate node logic
 
