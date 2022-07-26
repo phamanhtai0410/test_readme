@@ -4,6 +4,13 @@ Copyright of ESOLLABS
 ## 1. How to use Seer Oracle ?
 
 - ### On-chain: 
+    <video src="https://www.youtube.com/watch?v=e_FjGRvxIPU" controls="controls" style="width: 100%;">
+    </video>
+    
+    [![Tutorial: How to use SEER oracle on-chain with Inspector app from VeChain ?](https://github.com/phamanhtai0410/test_readme/blob/main/static/assets/BTC.png)](https://www.youtube.com/watch?v=e_FjGRvxIPU)
+
+    _Reference_: **[VeChain Inpsector App](https://inspector.vecha.in/)** 
+
     * Dapps can access prices through Seer Oracle smart contracts - listed below:
         + SeerOracleVETUSD: 0x3212feD5581DEFbb2d7Ea21d7F22f657cD3da97E
         + SeerOracleVETHOUSD: 0x5E7A52743575FE6F8cD8937C0415640338eBdd29
@@ -133,7 +140,3 @@ Restful API for oracle website to call and get datas.
 		    * Freshness Period: FRESHNESS_PERIOD = 3600 (means each 1 hour, histories data using for 			algorithm will be reset)
         - Flow chart:
 <img alt="Vebank" align="center" src="https://github.com/phamanhtai0410/test_readme/blob/main/static/assets/CalculatingNodeDiagram.png?raw=true" width="100%" height="75%" >
-
-
-
-
