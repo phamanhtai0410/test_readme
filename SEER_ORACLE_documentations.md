@@ -36,7 +36,7 @@ Copyright of ESOLLABS
     * **_1. Get available assets list:_** 
         +   Methods: [GET]
         +   Routing:
-            ```
+            ``` 
             /asset/now_available
             ```
         +   Example:
