@@ -4,9 +4,9 @@ Copyright of ESOLLABS
 ## 1. How to use Seer Oracle ?
 
 - ### On-chain: 
-    <video src="https://www.youtube.com/watch?v=e_FjGRvxIPU" controls="controls" style="width: 100%;">
-    </video>
-    
+    <!-- <video src="https://www.youtube.com/watch?v=e_FjGRvxIPU" controls="controls" style="width: 100%;">
+    </video> -->
+
     [![Tutorial: How to use SEER oracle on-chain with Inspector app from VeChain ?](https://github.com/phamanhtai0410/test_readme/blob/main/static/assets/BTC.png)](https://www.youtube.com/watch?v=e_FjGRvxIPU)
 
     _Reference_: **[VeChain Inpsector App](https://inspector.vecha.in/)** 
