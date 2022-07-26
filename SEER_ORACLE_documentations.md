@@ -4,12 +4,10 @@ Copyright of ESOLLABS
 ## 1. How to use Seer Oracle ?
 
 - ### On-chain: 
-    <!-- <video src="https://www.youtube.com/watch?v=e_FjGRvxIPU" controls="controls" style="width: 100%;">
-    </video> -->
+    * Get data from SEER oracle using Inspector app from VeChain: 
+    [![Tutorial: How to use SEER oracle on-chain with Inspector app from VeChain ?](https://github.com/phamanhtai0410/test_readme/blob/main/static/assets/SEER_LOGO.png)](https://www.youtube.com/watch?v=e_FjGRvxIPU)
 
-    [![Tutorial: How to use SEER oracle on-chain with Inspector app from VeChain ?]()](https://www.youtube.com/watch?v=e_FjGRvxIPU)
-
-    _Reference_: **[VeChain Inpsector App](https://inspector.vecha.in/)** 
+        _Reference_: **[VeChain Inpsector App](https://inspector.vecha.in/)** 
 
     * Dapps can access prices through Seer Oracle smart contracts - listed below:
         + SeerOracleVETUSD: 0x3212feD5581DEFbb2d7Ea21d7F22f657cD3da97E
