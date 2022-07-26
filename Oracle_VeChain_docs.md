@@ -167,7 +167,7 @@ In the future, our goal is to further enrich the ecosystem with more essential D
 - Website testnet on https://oracle-stag.vebank.io/home.
 - Some smart contracts on testnet in currently:
     - SeerOracleVETUSD: `0x3212feD5581DEFbb2d7Ea21d7F22f657cD3da97E`
-    - SeerOracleVETHOUSD: `0x5E7A52743575FE6F8cD8937C0415640338eBdd29`
+    - SeerOracleVTHOUSD: `0x5E7A52743575FE6F8cD8937C0415640338eBdd29`
     - SeerOracleVBUSD: `0xDf925feC9932A1De0d2b4404cCfac09166624F94`
     - SeerOracleVEUSDUSD: `0xA2B0d7b38dc13a58A7B4c0E8E2400d650dad46EC`
     - SeerOracleBTCUSD: `0x18A2fEAae2fA06B3452fd094Ba802C93FF0dA972`
