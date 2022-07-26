@@ -35,7 +35,7 @@ SEER v1.0 will have the following UI:
 <p></p>
 <img alt="Vebank" align="center" src="https://github.com/phamanhtai0410/test_readme/blob/main/static/assets/BTC.png?raw=true" width="100%" height="75%" >
 <p></p>
-<img alt="Vebank" align="center" src="https://github.com/phamanhtai0410/test_readme/blob/main/static/assets/VTHO.png?raw=true" width="100%" height="75%" >
+<img alt="Vebank" align="center" src="https://github.com/phamanhtai0410/test_readme/blob/main/static/assets/VTHO.png" width="100%" height="75%" >
 <p></p>
 <img alt="Vebank" align="center" src="https://github.com/phamanhtai0410/test_readme/blob/main/static/assets/VEUSD.png?raw=true"  width="100%" height="75%" >
 <p></p>
