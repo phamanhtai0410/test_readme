@@ -5,10 +5,9 @@ Copyright of ESOLLABS
 
 - ### On-chain: 
     * Get data from SEER oracle using Inspector app from VeChain:
+	    + <video src="https://user-images.githubusercontent.com/42676851/180912366-3714c496-8928-4135-9180-7ec37a01381a.mp4"  controls="controls" style="width: 730px;">
+            </video>
         + _Reference_: **[VeChain Inpsector App](https://inspector.vecha.in/)** 
-	<video src="https://user-images.githubusercontent.com/42676851/180912366-3714c496-8928-4135-9180-7ec37a01381a.mp4" controls="controls" style="width: 730px;">
-        </video>
-        
 
     * Dapps can access prices through Seer Oracle smart contracts - listed below:
         + SeerOracleVETUSD: 0x3212feD5581DEFbb2d7Ea21d7F22f657cD3da97E
