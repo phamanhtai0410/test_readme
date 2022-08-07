@@ -16,6 +16,12 @@ Copyright of ESOLLABS
         + SeerOracleVEUSDUSD: 0xA2B0d7b38dc13a58A7B4c0E8E2400d650dad46EC
         + SeerOracleBTCUSD: 0x18A2fEAae2fA06B3452fd094Ba802C93FF0dA972
         + SeerOracleETHUSD: 0xed8e829cfEB0Cdd315C26c7df10e81B12a3abA95
+        + SeerOracleUSDCUSD: 0x109272eF2326d57A591dF5FD9D828AcdC72A212E
+        + SeerOracleUSDTUSD: 0xbC8c3831117aC9A7E144f25A892A5410941d2C90
+        + SeerOracleUSDCUSDT: 0x18F4b159ba4eDd94fdccFb602590fc10FFD31eBC
+        + SeerOracleUSDCBUSD: 0x76c40604d306B388EAF976daE129bBBE15be4e39
+        + SeerOracleBUSDUSDT: 0x5a513838ad80670aE8e48A99416b4D0897763fcA
+    
     * **_How to get oracle data ?_**:
         + Call to specificed contract on demand. 
         + Ex: want to have price of VET/USD currency pair => Call to contract: "SeerOracleVETUSD" with address "0x3212feD5581DEFbb2d7Ea21d7F22f657cD3da97E"
