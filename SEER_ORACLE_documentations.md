@@ -130,29 +130,29 @@ Copyright of ESOLLABS
 
 | **ID** | **Pair of symbol** | **Deviation Threshold** |
 | --- | --- | --- |
-|01|BTC/USD|0.5%|
-|02|BTC/BUSD|0.5%|
-|03|BTC/USDT|0.5%|
-|04|ETH/USD|0.5%|
-|05|ETH/BUSD|0.5%|
-|06|ETH/USDT|0.5%|
-|07|VTHO/USD|0.5%|
-|08|VTHO/BUSD|0.5%|
-|09|VTHO/USDT|0.5%|
-|10|VET/USD|0.5%|
-|11|VET/BUSD|0.5%|
-|12|VET/USDT|0.5%|
-|13|VEUSD/USD|0.5%|
-|14|VEUSD/BUSD|0.5%|
-|15|VEUSD/USDT|0.5%|
-|16|VB/USD|0.5%|
-|17|VB/BUSD|0.5%|
-|18|VB/USDT|0.5%|
-|19|USDC/USDT|0.25%|
-|20|USDC/USD|0.25%|
-|21|USDC/BUSD|0.25%|
-|22|USDT/USD|0.25%|
-|23|BUSD/USDT|0.25%|
+|01|BTC/USD|1%|
+|02|BTC/BUSD|1%|
+|03|BTC/USDT|1%|
+|04|ETH/USD|1%|
+|05|ETH/BUSD|1%|
+|06|ETH/USDT|1%|
+|07|VTHO/USD|1%|
+|08|VTHO/BUSD|1%|
+|09|VTHO/USDT|1%|
+|10|VET/USD|1%|
+|11|VET/BUSD|1%|
+|12|VET/USDT|1%|
+|13|VEUSD/USD|1%|
+|14|VEUSD/BUSD|1%|
+|15|VEUSD/USDT|1%|
+|16|VB/USD|1%|
+|17|VB/BUSD|1%|
+|18|VB/USDT|1%|
+|19|USDC/USDT|0.5%|
+|20|USDC/USD|0.5%|
+|21|USDC/BUSD|0.5%|
+|22|USDT/USD|0.5%|
+|23|BUSD/USDT|0.5%|
 - When a SMC wants to use the prices, that one need to make requests to Seer Oracle already deployed in VeChain.
 
 ## 3. Core Components:
