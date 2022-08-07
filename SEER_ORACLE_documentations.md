@@ -126,7 +126,7 @@ Copyright of ESOLLABS
 -   Prices from multi datasources will be crawled by the crawler nodes. After that, data will be stored in database using Redis CLuster with Masters-Slaves Model.
 - With database, multi calculating nodes will be used to calculate final prices prepresented for each nodes. These processes will be implemented at the same time. 
 - Prices from Calculating Nodes will be updated and be chosen by Seer Oracle SMC.
-- SEER oracle's calculating nodes are monitoring prices of assets off-chain. The deviation of the real-world price of an asset triggers all the calculating nodes to update when the volatility is "big" enough.The below table shows how to estimate what the "big" volatility is for each assets by using **_Deviation Threshold_**:
+- SEER oracle's calculating nodes are monitoring prices of assets off-chain. The deviation of the real-world price of an asset triggers all the calculating nodes to update when the volatility is "big" enough. The below table shows how to estimate what the "big" volatility is for each assets by using **_Deviation Threshold_**:
 
 | **ID** | **Pair of symbol** | **Deviation Threshold** |
 | --- | --- | --- |
