@@ -3,11 +3,11 @@ Copyright of ESOLLABS
 
 ## 1. How to use Seer Oracle ?
 
-- ### On-chain: 
+- ### On-chain:
     * Get data from SEER oracle using Inspector app from VeChain:
 	    + <video src="https://user-images.githubusercontent.com/42676851/180912366-3714c496-8928-4135-9180-7ec37a01381a.mp4"  controls="controls" style="width: 730px;">
             </video>
-        + _Reference_: **[VeChain Inpsector App](https://inspector.vecha.in/)** 
+        + _Reference_: **[VeChain Inpsector App](https://inspector.vecha.in/)**
 
     * Dapps can access prices through Seer Oracle smart contracts - listed below:
         + SeerOracleVETUSD: 0x3212feD5581DEFbb2d7Ea21d7F22f657cD3da97E
@@ -21,28 +21,28 @@ Copyright of ESOLLABS
         + SeerOracleUSDCUSDT: 0x18F4b159ba4eDd94fdccFb602590fc10FFD31eBC
         + SeerOracleUSDCBUSD: 0x76c40604d306B388EAF976daE129bBBE15be4e39
         + SeerOracleBUSDUSDT: 0x5a513838ad80670aE8e48A99416b4D0897763fcA
-    
+
     * **_How to get oracle data ?_**:
-        + Call to specificed contract on demand. 
+        + Call to specificed contract on demand.
         + Ex: want to have price of VET/USD currency pair => Call to contract: "SeerOracleVETUSD" with address "0x3212feD5581DEFbb2d7Ea21d7F22f657cD3da97E"
         + Contract functions need to be called:
             ```
-            function latestAnswer() 
-                external view override  
-                returns (int256) 
+            function latestAnswer()
+                external view override
+                returns (int256)
             {
                 return assetDetail.price;
             }
 
             ```
-        + Another dapps can build a contract with functions that can call to Seer Oracle addresses and get the suitable price when in need. 
-- ### Off-chain: 
+        + Another dapps can build a contract with functions that can call to Seer Oracle addresses and get the suitable price when in need.
+- ### Off-chain:
     We support solution to getting latest price via restful API as below:
     * Domain: https://api-stag.vebank.io/v1/oracle/
-    * **_1. Get available assets list:_** 
+    * **_1. Get available assets list:_**
         +   Methods: [GET]
         +   Routing:
-            ``` 
+            ```
             /asset/now_available
             ```
         +   Example:
@@ -124,7 +124,7 @@ Copyright of ESOLLABS
 <br></br>
 
 -   Prices from multi datasources will be crawled by the crawler nodes. After that, data will be stored in database using Redis CLuster with Masters-Slaves Model.
-- With database, multi calculating nodes will be used to calculate final prices prepresented for each nodes. These processes will be implemented at the same time. 
+- With database, multi calculating nodes will be used to calculate final prices prepresented for each nodes. These processes will be implemented at the same time.
 - Prices from Calculating Nodes will be updated and be chosen by Seer Oracle SMC.
 - SEER oracle's calculating nodes are monitoring prices of assets off-chain. The deviation of the real-world price of an asset triggers all the calculating nodes to update when the volatility is "big" enough. The below table shows how to estimate what the "big" volatility is for each assets by using **_Deviation Threshold_**:
 
