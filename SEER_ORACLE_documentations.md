@@ -29,7 +29,7 @@ Copyright of ESOLLABS
             }
 
             ```
-        + Another dapps can build a contract to Seer Oracle addresses and call to suitable one when in need. 
+        + Another dapps can build a contract with functions that can call to Seer Oracle addresses and get the suitable price when in need. 
 - ### Off-chain: 
     We support solution to getting latest price via restful API as below:
     * Domain: https://api-stag.vebank.io/v1/oracle/
@@ -70,6 +70,11 @@ Copyright of ESOLLABS
             |16|VB/USD|VBUSD|
             |17|VB/BUSD|VBBUSD|
             |18|VB/USDT|VBUSDT|
+            |19|USDC/USDT|USDCUSDT|
+            |20|USDC/USD|USDCUSD|
+            |21|USDC/BUSD|USDCBUSD|
+            |22|USDT/USD|USDTUSD|
+            |23|BUSD/USDT|BUSDUSDT|
         +   Example:
             ```
             curl --location --request GET 'https://api-stag.vebank.io/v1/oracle/price/BTCUSD/latest'
@@ -89,6 +94,9 @@ Copyright of ESOLLABS
             |04|Vethor Token|VTHO|
             |05|VeUSD|VEUSD|
             |06|VeBank|VB|
+            |07|Tether|USDT|
+            |08|Binance USD|BUSD|
+            |09|USD Coin|USDC|
         +   Example:
             ```
             curl --location --request GET 'https://api-stag.vebank.io/v1/oracle/price/symbol/BTC'
@@ -111,8 +119,35 @@ Copyright of ESOLLABS
 
 -   Prices from multi datasources will be crawled by the crawler nodes. After that, data will be stored in database using Redis CLuster with Masters-Slaves Model.
 - With database, multi calculating nodes will be used to calculate final prices prepresented for each nodes. These processes will be implemented at the same time. 
-- Prices from Calculating Nodes will be update and be chosen by Seer Oracle SMC.
-- When a SMC wants to use the prices, that one must have to make requests to Seer Oracle deployed in VeChain.
+- Prices from Calculating Nodes will be updated and be chosen by Seer Oracle SMC.
+- SEER oracle's calculating nodes are monitoring prices of assets off-chain. The deviation of the real-world price of an asset triggers all the calculating nodes to update when the volatility is "big" enough.The below table shows how to estimate what the "big" volatility is for each assets by using **_Deviation Threshold_**:
+
+| **ID** | **Pair of symbol** | **Deviation Threshold** |
+| --- | --- | --- |
+|01|BTC/USD|0.5%|
+|02|BTC/BUSD|0.5%|
+|03|BTC/USDT|0.5%|
+|04|ETH/USD|0.5%|
+|05|ETH/BUSD|0.5%|
+|06|ETH/USDT|0.5%|
+|07|VTHO/USD|0.5%|
+|08|VTHO/BUSD|0.5%|
+|09|VTHO/USDT|0.5%|
+|10|VET/USD|0.5%|
+|11|VET/BUSD|0.5%|
+|12|VET/USDT|0.5%|
+|13|VEUSD/USD|0.5%|
+|14|VEUSD/BUSD|0.5%|
+|15|VEUSD/USDT|0.5%|
+|16|VB/USD|0.5%|
+|17|VB/BUSD|0.5%|
+|18|VB/USDT|0.5%|
+|19|USDC/USDT|0.25%|
+|20|USDC/USD|0.25%|
+|21|USDC/BUSD|0.25%|
+|22|USDT/USD|0.25%|
+|23|BUSD/USDT|0.25%|
+- When a SMC wants to use the prices, that one need to make requests to Seer Oracle already deployed in VeChain.
 
 ## 3. Core Components:
 **Seer** contains 4 main components:
