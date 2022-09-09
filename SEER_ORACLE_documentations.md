@@ -97,22 +97,21 @@ Copyright of ESOLLABS
             |05|ETH/BUSD|ETHBUSD|
             |06|ETH/USDT|ETHUSDT|
             |07|VTHO/USD|VTHOUSD|
-            |08|VTHO/BUSD|VTHOBUSD|
-            |09|VTHO/USDT|VTHOUSDT|
-            |10|VET/USD|VETUSD|
-            |11|VET/BUSD|VETBUSD|
-            |12|VET/USDT|VETUSDT|
-            |13|VEUSD/USD|VEUSDUSD|
-            |14|VEUSD/BUSD|VEUSDBUSD|
-            |15|VEUSD/USDT|VEUSDUSDT|
-            |16|VB/USD|VBUSD|
-            |17|VB/BUSD|VBBUSD|
-            |18|VB/USDT|VBUSDT|
-            |19|USDC/USDT|USDCUSDT|
-            |20|USDC/USD|USDCUSD|
-            |21|USDC/BUSD|USDCBUSD|
-            |22|USDT/USD|USDTUSD|
-            |23|BUSD/USDT|BUSDUSDT|
+            |08|VTHO/USDT|VTHOUSDT|
+            |09|VET/USD|VETUSD|
+            |10|VET/BUSD|VETBUSD|
+            |11|VET/USDT|VETUSDT|
+            |12|VEUSD/USD|VEUSDUSD|
+            |13|VEUSD/BUSD|VEUSDBUSD|
+            |14|VEUSD/USDT|VEUSDUSDT|
+            |15|VB/USD|VBUSD|
+            |16|VB/BUSD|VBBUSD|
+            |17|VB/USDT|VBUSDT|
+            |18|USDC/USDT|USDCUSDT|
+            |19|USDC/USD|USDCUSD|
+            |20|USDC/BUSD|USDCBUSD|
+            |21|USDT/USD|USDTUSD|
+            |22|BUSD/USDT|BUSDUSDT|
         +   Example:
             ```
             curl --location --request GET 'https://api-stag.vebank.io/v1/oracle/price/BTCUSD/latest'
@@ -169,22 +168,21 @@ Copyright of ESOLLABS
 |05|ETH/BUSD|1%|
 |06|ETH/USDT|1%|
 |07|VTHO/USD|1%|
-|08|VTHO/BUSD|1%|
-|09|VTHO/USDT|1%|
-|10|VET/USD|1%|
-|11|VET/BUSD|1%|
-|12|VET/USDT|1%|
-|13|VEUSD/USD|1%|
-|14|VEUSD/BUSD|1%|
-|15|VEUSD/USDT|1%|
-|16|VB/USD|1%|
-|17|VB/BUSD|1%|
-|18|VB/USDT|1%|
-|19|USDC/USDT|0.5%|
-|20|USDC/USD|0.5%|
-|21|USDC/BUSD|0.5%|
-|22|USDT/USD|0.5%|
-|23|BUSD/USDT|0.5%|
+|08|VTHO/USDT|1%|
+|09|VET/USD|1%|
+|10|VET/BUSD|1%|
+|11|VET/USDT|1%|
+|12|VEUSD/USD|1%|
+|13|VEUSD/BUSD|1%|
+|14|VEUSD/USDT|1%|
+|15|VB/USD|1%|
+|16|VB/BUSD|1%|
+|17|VB/USDT|1%|
+|18|USDC/USDT|0.5%|
+|19|USDC/USD|0.5%|
+|20|USDC/BUSD|0.5%|
+|21|USDT/USD|0.5%|
+|22|BUSD/USDT|0.5%|
 - When a SMC wants to use the prices, that one need to make requests to Seer Oracle already deployed in VeChain.
 
 ## 3. Core Components:
